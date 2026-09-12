@@ -1,0 +1,25 @@
+<!-- We suggest storing your app templates under the next directory structure: 
+app_name/templates/app_name/my_template.html. 
+Sometimes, different apps can contain templates with the same name,
+which could lead to potential name conflicts in template resolution.-->
+
+{% extends 'base.html' %}
+{% block content %}
+<header class="masthead bg-index text-white text-center
+           py-4">
+  <div class="container d-flex align-items-center flex-
+  column pt-2">
+    <h2>Movies Store</h2>
+    <p>Your Ticket to Unlimited Entertainment!</p>
+  </div>
+</header>
+<div class="p-3">
+  <div class="container">
+    <div class="row mt-3">
+      <div class="col mx-auto text-center mb-3">
+        <h4>Welcome to the best movie store!!</h4>
+      </div>
+    </div>
+  </div>
+</div>
+{% endblock content %}
